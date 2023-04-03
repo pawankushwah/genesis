@@ -1,0 +1,14 @@
+{
+  "homepage": "https://pawankushwah.github.io/genesis-web-demo",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  },
+  "scripts": {
+    "start": "npx tailwindcss -i ./tailwindcss.css -o ./output.css --watch",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
